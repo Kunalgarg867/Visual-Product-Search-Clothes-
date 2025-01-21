@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="body">
       <div className="App">
-        <h1>The Cloth Store</h1>
+        <h1>The Cloth House</h1>
         <div className="upload-section">
           <input type="file" accept="image/*" onChange={handleImageUpload} />
           <button onClick={handleSearch} disabled={loading}>
